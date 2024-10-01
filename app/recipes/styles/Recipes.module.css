@@ -1,0 +1,72 @@
+.recipesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.recipeList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 800px;
+}
+
+.recipeItem {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.recipeItem:hover {
+  transform: scale(1.02);
+}
+
+.recipeName {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+.recipeCategory {
+  font-size: 1em;
+  font-style: italic;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.ingredientsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredientsList li {
+  padding: 5px 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.ingredientsList li:last-child {
+  border-bottom: none;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+}
